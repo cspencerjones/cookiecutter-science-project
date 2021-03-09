@@ -32,8 +32,8 @@ dependencies:
     - sphinxcontrib-srclinks
 
 ```
-Build the environment with `conda create env -f docs/environment.yml`, and activate it with `conda activate <repo>_docs`.
-> For an even faster build try out `mamba create env -f docs/environment.yml` instead.
+Build the environment with `conda env create -f docs/environment.yml`, and activate it with `conda activate <repo>_docs`.
+> For an even faster build try out `mamba env create -f docs/environment.yml` instead.
 
 3. Navigate to the `docs` folder and setup the folder structure with `sphinx-quickstart`
 4. Populate your docs with `.rst` and `.ipynb` files
